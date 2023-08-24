@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('CloisterBlack.ttf') format('truetype');
+}
+
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+
+body {
+  background-color: rgb(38, 38, 38);
+  color: aliceblue;
+  margin-top: 60px;
+}
+
+p {
+  font-family: 'CustomFont', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: grey;
+  font-family: 'CustomFont', Arial, sans-serif;
+}
+
+
+.fox {
+
+  border-radius: 300px;
+}

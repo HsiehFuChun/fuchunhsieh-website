@@ -1,0 +1,48 @@
+
+header {
+    width: 100vw;
+    height: 55px;    
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  
+}
+
+.header-icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Leckerli One';
+    padding-left: 10px;
+    font-size: 25px;
+    width: 100px;
+}
+
+.header-right {
+    position: relative;
+    flex: 1;
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.header-right-list {
+    margin-right: 25px;
+    float: right;
+}
+
+.header-right-element{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 2px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+}
